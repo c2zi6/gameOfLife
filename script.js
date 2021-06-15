@@ -1,6 +1,6 @@
 var matrix = [];
 
-var side = 25;
+var side = 15;
 var grassAr = [];
 var grassEaterArr = [];
 var predatorArr = [];
@@ -40,7 +40,7 @@ function setup() {
             matrix[y][x] = 4;
         }
     }
-    matrixGenerator(40, 20, 15, 3, 15, 15)
+    matrixGenerator(40, 50, 15, 3, 15, 15)
     frameRate(5);
     createCanvas(matrix[0].length * side, matrix.length * side);
     background('#acacac');
